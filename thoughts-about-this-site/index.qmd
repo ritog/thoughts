@@ -1,0 +1,15 @@
+---
+title: "Thoughts about this site"
+description: "Why these notes live in their own small corner of the web."
+author: "Rito Ghosh"
+date: "2026-03-07"
+categories: [meta]
+title-block-banner: true
+---
+
+This is a home for notes, essays, and ideas that do not belong in the main
+technical blog.
+
+The site is built with [Quarto](https://quarto.org/) and its source is available
+on [GitHub](https://github.com/ritog/thoughts). Each thought gets a short,
+stable URL under `ritoghosh.com/thoughts/`.

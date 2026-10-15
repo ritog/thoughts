@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - fonts/**
+
+# Keep this in sync with .github/workflows/publish.yml.
+quarto-required: ">=1.10.18"
+
+website:
+  title: "Thoughts by Rito Ghosh"
+  description: "Notes, essays, and ideas by Rito Ghosh."
+  site-url: "https://ritoghosh.com/thoughts/"
+  repo-url: "https://github.com/ritog/thoughts"
+  search: true
+  open-graph: true
+  twitter-card: true
+  navbar:
+    left:
+      - text: "Rito Ghosh"
+        href: "https://ritoghosh.com/"
+    right:
+      - text: "Posts"
+        href: index.qmd
+      - icon: github
+        href: "https://github.com/ritog"
+        aria-label: GitHub
+      - icon: rss
+        href: index.xml
+        aria-label: RSS
+
+format:
+  html:
+    theme:
+      dark: solar
+      light: lumen
+    css: styles.css
+    mainfont: "Courier Prime"
+    monofont: "Cascadia Code"
+    anchor-sections: true
+    code-line-numbers: true
+    code-copy: true
+    html-math-method:
+      method: katex
+      url: "https://cdn.jsdelivr.net/npm/katex@0.18.1/dist/"
+
+execute:
+  freeze: auto
