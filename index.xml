@@ -10,7 +10,7 @@
 <atom:link href="https://ritoghosh.com/thoughts/index.xml" rel="self" type="application/rss+xml"/>
 <description>Notes, essays, and ideas by Rito Ghosh.</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Fri, 06 Mar 2026 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 07 Mar 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Thoughts about this site</title>
   <dc:creator>Rito Ghosh</dc:creator>
@@ -30,7 +30,7 @@
  ]]></description>
   <category>meta</category>
   <guid>https://ritoghosh.com/thoughts/thoughts-about-this-site/</guid>
-  <pubDate>Fri, 06 Mar 2026 18:30:00 GMT</pubDate>
+  <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
